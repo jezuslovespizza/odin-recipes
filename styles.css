@@ -1,0 +1,22 @@
+h1,
+h2 {
+    background-color: rgb(245, 81, 81);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.recipe-list {
+    font-size:40px;
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,
+ul,
+ol {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
