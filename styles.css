@@ -1,22 +1,129 @@
-h1,
-h2 {
-    background-color: rgb(245, 81, 81);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
-.recipe-list {
-    font-size:40px;
-    color: green;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-h1,
-ul,
-ol {
-    text-align: center;
-}
+html {
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
 h1 {
+
+    margin: 0px 55px 5px 0px;
     font-size: 40px;
+    background-color: rgba(211, 52, 184, 0.678);
+    text-align: center;
+    border: 1px solid black;
+    width: 1100px;
+    padding: 10px;
+    border-radius: 15px;
+
+    }
+
+.mainpic,
+.recipe-list {
+    border: 1px solid white;
+    width: 550px;
+    height: 400px;
+    margin: 5px 0px 5px 0px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+.recipe-list,
+.text-cont,
+.steps-text-cont {
+    background-color: pink;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.recipe {
+    display:block;
+    margin: 5px;
+    font-size: 40px;
+    color:aquamarine;
+}
+
+#recipe-list-title {
+    margin: 0px 0px 2px 0px;
+    font-size: 42px;
+    background-color: rgb(39, 99, 168);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: rgb(186, 204, 219);
+
+}
+
+
+.text-cont,
+.steps-text-cont {
+    width: 600px;
+    height: 400px;
+    margin: 5px 0px 0px 250px;
+    border: 1px solid white;
+    
+    
+}
+
+
+.dish-pic {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin: 60px 0px 0px 0px;
+    border: 1px solid white;
+
+}
+
+
+
+.welcome {
+    margin-left: 100px;
+    padding: 5px;
+}
+
+h1,
+.text-cont,
+.recipe-list,
+.steps-text-cont {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,97,0.8421743697478992) 0%, rgba(17,116,166,0.7917542016806722) 67%, rgba(255,0,50,0.8393732492997199) 95%);
+color: rgb(185, 243, 243);
+text-shadow: 5px 5px 5px black;
+}
+
+.text-cont ul,
+.text-cont h2 {
+    margin: 30px 0px 0px 250px;
+
+}
+
+.slogan {
+    text-align: center;
+    color: rgb(255, 10, 10);
+    text-shadow: 5px 5px 5px black;
+    margin: 0px 0px 20px 0px;
+
+}
+
+#copyright {
+    color: whitesmoke;
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.back {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.back:hover {
+    color: red;
+    background-color: white;
+    opacity: 80%;
 }
